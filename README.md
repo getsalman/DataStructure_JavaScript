@@ -8,9 +8,19 @@ Why linked list:- Allow you to insert value in the middle of the list by simply 
 -> Sorted data.
 
 Scalability:-
-   prepend - O(1)
-   append - O(1)
-   lookup - O(n)
-   insert - O(n)
+   prepend - O(1),
+   append - O(1),
+   lookup - O(n),
+   insert - O(n),
    delete - O(n)
+
+2. Doubly Linked List:- It has an extra pices of data that also link to the previous node. It allows us to traverse our list backward.
+
+
+Scalability:-
+prepend -> O(1),
+append -> O(1),
+lookup -> O(n),
+insert -> O(n),
+delete -> O(n)
 
