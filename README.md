@@ -24,7 +24,7 @@ insert -> O(n),
 delete -> O(n)
 
 
-1. Hash Table
+3. Hash Table
 Hash Table:- A hash table is a data structure that maps keys to values.
 -> Object in JavaScript are types of Hash Table.
 
@@ -43,4 +43,15 @@ Disadvantage:- Hash collisons -> Where the hash function generates the same inde
 
     -> You can resolved hash collision problem via linked list and also there are many ways to solve.
     -> Note:- Good collison resolution needed
+
+4. Stack:- It is linear data structure.
+   - You can only access the top elements.
+   - It follow LIFO pricipal which is last in first out.
+   - Stck can be implemented using arrays and linked list. both work very well in case of stack implementation
+
+   Scalability:-
+  lookup:- O(n),
+  pop:- O(1),
+  push:- O(1),
+  top:- O(1)
 
