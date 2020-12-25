@@ -59,10 +59,26 @@ Disadvantage:- Hash collisons -> Where the hash function generates the same inde
   - It follows FIFI principal which is first in first out.
   - ideally it is implemented using linked list.
 
- Scalability:-
+Scalability:-
 lookup - O(n),
 push   - O(1),
 pop    - O(1),
 top    - O(1)
+
+5. Binary Tree:- kind of tree that has few rules that should apply.
+ - Each node can be only have either 0,1 and 2 nodes.
+ - Each child can only have one parents.
+
+- Perfect binary tree:- A node has zero or two children. it has two importatnt properties
+  - the No. of total nodes on each level is doubled as we move down the tree.
+  - No. of nodes on last level is equla to the sum of no. of nodes on all other's level plus one.
+
+Scalability:-
+ lookup - O(log N),
+ insert - O(log N),
+ delete - O(log N),
+
+- Binary search tree data structure preserved relationship.
+- All child node in the tree to the right of root node must be greater than the current node.
   
 
