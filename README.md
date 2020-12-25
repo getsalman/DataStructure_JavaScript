@@ -55,3 +55,14 @@ Disadvantage:- Hash collisons -> Where the hash function generates the same inde
   push:- O(1),
   top:- O(1)
 
+5. Queue:- It is linear data structure.
+  - It follows FIFI principal which is first in first out.
+  - ideally it is implemented using linked list.
+
+ Scalability:-
+lookup - O(n),
+push   - O(1),
+pop    - O(1),
+top    - O(1)
+  
+
